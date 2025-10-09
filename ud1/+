@@ -1,9 +1,0 @@
-#!/bin/env python3
-
-def area(l_lado):
-    return(l_lado*2)
-
-def mensaje():
-    print(f"El cuadrado con lado {lado} de longitud, tiene un área de {area(lado)}")
-
-mensaje(int(input("¿Cuánto mide el lado?:" )))
